@@ -1,0 +1,26 @@
+.header {
+  margin-bottom: 50px;
+}
+.header__inner {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  align-items: center;
+  padding: 14px 15px;
+  width: 100%;
+  justify-content: space-between;
+}
+.header-btn-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-btn {
+  border: 1px solid #1f1f1f;
+  font-weight: 600;
+}
+.header-btn:nth-child(2) {
+  border: 1px solid red;
+  background-color: red;
+  color: #fff;
+  font-weight: 600;
+}
